@@ -31,27 +31,27 @@ const agamT = () => {
   agam.classList.add('shows')
 }
 
-const plateMenuT = () => {
+const logisticsT = () => {
   mainMenu.classList.add('hides')
-  plateMenu.classList.add('shows')
+  logistics.classList.add('shows')
 }
 
-const drinkMenuT = () => {
+const carsT = () => {
   mainMenu.classList.add('hides')
-  drinkMenu.classList.add('shows')
+  cars.classList.add('shows')
 }
 
 
-const marketMenuT = () => {
+const shonotT = () => {
   mainMenu.classList.add('hides')
-  marketMenu.classList.add('shows')
+  shonot.classList.add('shows')
 }
 
 const backToggle = () => {
   medicine.classList.remove('shows')
-  marketMenu.classList.remove('shows')
-  drinkMenu.classList.remove('shows')
-  plateMenu.classList.remove('shows')
+  shonot.classList.remove('shows')
+  cars.classList.remove('shows')
+  logistics.classList.remove('shows')
   agam.classList.remove('shows')
   mainMenu.classList.remove('hides')
 }
