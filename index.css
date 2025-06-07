@@ -257,11 +257,10 @@ input[type="tel"]::placeholder {
 #mainMenu.hides,
 #medicine,
 #agam,
-#plateMenu,
+#logistics,
 #mealMenu,
-#drinkMenu,
-#alcoholMenu,
-#marketMenu {
+#cars,
+#shonot {
   animation-name: moveOut;
   animation-duration: 2s;
   animation-iteration-count: 1;
@@ -276,11 +275,10 @@ input[type="tel"]::placeholder {
 }
 #medicine.shows,
 #agam.shows,
-#plateMenu.shows,
+#logistics.shows,
 #mealMenu.shows,
-#drinkMenu.shows,
-#alcoholMenu.shows,
-#marketMenu.shows {
+#cars.shows,
+#shonot.shows {
   border-radius: 25px;
   padding: 2%;
   background-color: #b6ee32;
