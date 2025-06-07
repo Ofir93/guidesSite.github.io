@@ -256,7 +256,7 @@ input[type="tel"]::placeholder {
 
 #mainMenu.hides,
 #medicine,
-#burgerMenu,
+#agam,
 #plateMenu,
 #mealMenu,
 #drinkMenu,
@@ -275,7 +275,7 @@ input[type="tel"]::placeholder {
   animation-fill-mode: forwards;
 }
 #medicine.shows,
-#burgerMenu.shows,
+#agam.shows,
 #plateMenu.shows,
 #mealMenu.shows,
 #drinkMenu.shows,

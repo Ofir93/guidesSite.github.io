@@ -26,9 +26,9 @@ const medicineT = () => {
   medicine.classList.add('shows')
 }
 
-const burgerMenuT = () => {
+const agamT = () => {
   mainMenu.classList.add('hides')
-  burgerMenu.classList.add('shows')
+  agam.classList.add('shows')
 }
 
 const plateMenuT = () => {
@@ -52,7 +52,7 @@ const backToggle = () => {
   marketMenu.classList.remove('shows')
   drinkMenu.classList.remove('shows')
   plateMenu.classList.remove('shows')
-  burgerMenu.classList.remove('shows')
+  agam.classList.remove('shows')
   mainMenu.classList.remove('hides')
 }
 
