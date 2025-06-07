@@ -36,9 +36,19 @@ const logisticsT = () => {
   logistics.classList.add('shows')
 }
 
+const hRT = () => {
+  mainMenu.classList.add('hides')
+  hR.classList.add('shows')
+}
+
 const carsT = () => {
   mainMenu.classList.add('hides')
   cars.classList.add('shows')
+}
+
+const opGuidsT = () => {
+  mainMenu.classList.add('hides')
+  opGuids.classList.add('shows')
 }
 
 
@@ -51,7 +61,9 @@ const backToggle = () => {
   medicine.classList.remove('shows')
   shonot.classList.remove('shows')
   cars.classList.remove('shows')
+  opGuids.classList.remove('shows')
   logistics.classList.remove('shows')
+  hR.classList.remove('shows')
   agam.classList.remove('shows')
   mainMenu.classList.remove('hides')
 }

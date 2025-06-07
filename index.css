@@ -258,8 +258,10 @@ input[type="tel"]::placeholder {
 #medicine,
 #agam,
 #logistics,
+#hR,
 #mealMenu,
 #cars,
+#opGuids,
 #shonot {
   animation-name: moveOut;
   animation-duration: 2s;
@@ -276,8 +278,10 @@ input[type="tel"]::placeholder {
 #medicine.shows,
 #agam.shows,
 #logistics.shows,
+#hR.shows,
 #mealMenu.shows,
 #cars.shows,
+#opGuids.shows,
 #shonot.shows {
   border-radius: 25px;
   padding: 2%;
